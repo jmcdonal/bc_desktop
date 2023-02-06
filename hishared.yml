@@ -1,0 +1,8 @@
+---
+title: "HI Shared Desktop"
+cluster: "HI_cluster"
+submit: submit/my_sumbit.yml.erb
+attributes: 
+  desktop: "xfce" 
+  bc_account: null
+  bc_queue: oldgpu

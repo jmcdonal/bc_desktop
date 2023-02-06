@@ -1,0 +1,8 @@
+---
+script:
+  gpus_per_nodes: 1
+  native:
+    - -n
+    - "<%= bc_num_slots.blank? ? 1 : bc_num_slots.to_i %>"
+    - --gres=gpu:1
+
